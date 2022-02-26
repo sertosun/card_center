@@ -1,0 +1,51 @@
+*{ box-sizing: border-box; }
+
+    body
+        {
+            font-family: segoe ui;
+            background-color: rgb(235, 235, 235);
+        }
+
+    .container
+        {
+            width: 200px;
+            text-align: center;
+            margin: 0 25px;
+            padding: 15px;
+            border: 1px solid rgb(179, 179, 179);
+            border-radius: 20px;
+            background-color: white;
+        }
+
+    .icon
+        {
+            width: 50%;
+        }
+    .titel
+        {
+            margin: 0;
+            font-weight: normal;
+            letter-spacing: 1px;
+        }
+    .text
+        {
+            font-size: 14px;
+            font-weight: lighter;
+            color: #666;
+            letter-spacing: 1px;
+        }
+    .grossContainer
+        {
+            display: flex;           
+            flex-direction: column;
+            align-items: center;
+        }
+
+    .kreis
+        {
+            width: 150px;
+            height: 150px;
+            background-color: tomato;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
